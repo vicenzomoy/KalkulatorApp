@@ -35,8 +35,7 @@ public class KalkulatorActivity extends AppCompatActivity {
     btnTambah.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            int a, b;
-            int hasilTambah;
+            int a, b, hasilTambah;
             a = Integer.parseInt(edtNilaiPertama.getText().toString());
             b = Integer.parseInt(edtNilaiKedua.getText().toString());
             hasilTambah = a + b;
@@ -46,8 +45,7 @@ public class KalkulatorActivity extends AppCompatActivity {
     btnKali.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            int a, b;
-            int hasilKali;
+            int a, b, hasilKali;
             a = Integer.parseInt(edtNilaiPertama.getText().toString());
             b = Integer.parseInt(edtNilaiKedua.getText().toString());
             hasilKali = a * b;
@@ -57,8 +55,7 @@ public class KalkulatorActivity extends AppCompatActivity {
     btnBagi.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            int a, b;
-            int hasilBagi;
+            int a, b, hasilBagi;
             a = Integer.parseInt(edtNilaiPertama.getText().toString());
             b = Integer.parseInt(edtNilaiKedua.getText().toString());
             hasilBagi = a / b;
